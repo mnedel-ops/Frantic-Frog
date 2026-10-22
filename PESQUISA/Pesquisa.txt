@@ -1,3 +1,27 @@
+Principais jogos pro mobile: Roblox, Brawl Stars, Clash Royale, Subway Surfers.
+	UIs: https://www.gameuidatabase.com/gameData.php?id=465
+Jogo Horizontal.
+		Bordas. Em caso de pattern, usar gradiente ou usar Brilho. Quando interage com outros elementos da UI, existe sombra. Objetos tentam enganar um 3D. Não precisa de muita conexão, itens são soltos, mas todos tem borda e quadro que comporta a informação. 
+Quadros, poucos tem opacidade diferente de 100%. Os com tal opacidade [diferente de 100%] são um nível abaixo de importância, usados para agrupar. Texto puro é solto na Tela.
+Ícones usados em Moedas ou coletáveis. E em opções que pode ter. Além de ter caso as outras opções tenham, todas devem ter. Botoes com função similar, compartilham o mesmo ícones. 
+Cores não tem importância. Usadas sem paleta.
+Backgrounds são monocromáticos. Vignette pesado. 
+Botoes tem forma 3D (sombra, e brilho no topo). Barra são duas cores. Não são retângulos. 
+Posição de elementos: Topo tem função de voltar e outras infos recorrentes. 
+Fonte: Texto é usado quando precisa e breve. Poucas fontes na tela
+	
+	UIs: https://www.gameuidatabase.com/gameData.php?id=1299
+Jogo vertical.
+Botoes 3D. Borda. Barra tem 2 cores e bordas 3D. 
+Ícones bem detalhados. 
+Apenas 1 background.
+Multiplos estilos de Quadros, bordas e divisórias.
+Não tem paleta de cores.
+
+
+	
+E pro desktop: Roblox, Minecraft e Fortnite. 
+
 Crianças jogam muito no mobile. Já que é o primeiro "Console" que elas ganham.
 Roblox, Fortnite e o que for sucesso no momento. Ser multiplayer. 
 Pesquisas: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1307881/full#sec6
