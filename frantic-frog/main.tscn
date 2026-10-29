@@ -4,6 +4,7 @@
 [ext_resource type="Script" uid="uid://cfl3psq0c0vsr" path="res://SCRIPTS/state_manager.gd" id="1_lquwl"]
 [ext_resource type="Texture2D" uid="uid://bbx5f5u5e77wv" path="res://ENTITIES/loading.jpg" id="2_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://cicpaty7nn47p" path="res://ENTITIES/menu.tscn" id="2_7mycd"]
+[ext_resource type="PackedScene" uid="uid://bbqxh062mnudh" path="res://ENTITIES/settings.tscn" id="3_272bh"]
 [ext_resource type="Texture2D" uid="uid://wbbwwk5a3j33" path="res://ENTITIES/settings.jpg" id="3_h2yge"]
 [ext_resource type="Texture2D" uid="uid://c0alrg7h2tr83" path="res://ENTITIES/collectibles.jpg" id="4_1bvp3"]
 
@@ -17,9 +18,11 @@ grow_vertical = 2
 
 [node name="state-manager" type="Node" parent="." unique_id=1082085726 node_paths=PackedStringArray("states_array")]
 script = ExtResource("1_lquwl")
-states_array = [NodePath("Menu")]
+states_array = [NodePath("Menu"), NodePath("Settings")]
 
 [node name="Menu" parent="state-manager" unique_id=459790338 instance=ExtResource("2_7mycd")]
+
+[node name="Settings" parent="state-manager" unique_id=1271635663 instance=ExtResource("3_272bh")]
 
 [node name="current-screen" type="Control" parent="." unique_id=1599451388]
 anchors_preset = 0

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bbqxh062mnudh"]
+
+[ext_resource type="Script" uid="uid://durjkbtawjo5k" path="res://SCRIPTS/settings.gd" id="1_j8ps8"]
+[ext_resource type="Texture2D" uid="uid://wbbwwk5a3j33" path="res://ENTITIES/settings.jpg" id="2_dcve1"]
+
+[node name="Settings" type="Node" unique_id=1271635663]
+script = ExtResource("1_j8ps8")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=318407701]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_dcve1")
+expand_mode = 1
