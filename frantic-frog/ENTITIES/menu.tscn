@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cicpaty7nn47p"]
+
+[ext_resource type="Script" uid="uid://cnbiokytb1mq2" path="res://ENTITIES/menu.gd" id="1_onw2j"]
+[ext_resource type="Texture2D" uid="uid://kbxkle0fsaxy" path="res://ENTITIES/menu.jpg" id="1_w86cw"]
+
+[node name="Menu" type="Node" unique_id=1652412772]
+script = ExtResource("1_onw2j")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2005941290]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_w86cw")
+expand_mode = 1
