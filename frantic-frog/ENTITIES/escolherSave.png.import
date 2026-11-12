@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://2nk7wadvmhaf"
-path="res://.godot/imported/pause.jpg-b25bf38d443690c1450a26cb5ac4629b.ctex"
+uid="uid://d2fphbctoqvt4"
+path="res://.godot/imported/escolherSave.png-a5aa7204dfdd73888bc0ff03290a86aa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ENTITIES/pause.jpg"
-dest_files=["res://.godot/imported/pause.jpg-b25bf38d443690c1450a26cb5ac4629b.ctex"]
+source_file="res://ENTITIES/escolherSave.png"
+dest_files=["res://.godot/imported/escolherSave.png-a5aa7204dfdd73888bc0ff03290a86aa.ctex"]
 
 [params]
 

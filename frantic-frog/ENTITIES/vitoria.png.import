@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://frvvfi5yh7tu"
-path="res://.godot/imported/ingame.jpg-da04f03777ecb8c6b659e3b74c52ecbe.ctex"
+uid="uid://dstc2l3ju65gs"
+path="res://.godot/imported/vitoria.png-4ed5b33639181095c1be961da9ad9f5b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ENTITIES/ingame.jpg"
-dest_files=["res://.godot/imported/ingame.jpg-da04f03777ecb8c6b659e3b74c52ecbe.ctex"]
+source_file="res://ENTITIES/vitoria.png"
+dest_files=["res://.godot/imported/vitoria.png-4ed5b33639181095c1be961da9ad9f5b.ctex"]
 
 [params]
 

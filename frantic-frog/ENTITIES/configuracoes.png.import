@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0alrg7h2tr83"
-path="res://.godot/imported/collectibles.jpg-17d87df95e0ad64d3616eb1bcb56d7f2.ctex"
+uid="uid://bjn4xl66b5al5"
+path="res://.godot/imported/configuracoes.png-29aa69601f04d678996b7aadb662df3b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ENTITIES/collectibles.jpg"
-dest_files=["res://.godot/imported/collectibles.jpg-17d87df95e0ad64d3616eb1bcb56d7f2.ctex"]
+source_file="res://ENTITIES/configuracoes.png"
+dest_files=["res://.godot/imported/configuracoes.png-29aa69601f04d678996b7aadb662df3b.ctex"]
 
 [params]
 
