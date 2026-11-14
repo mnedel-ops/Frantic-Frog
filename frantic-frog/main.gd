@@ -14,16 +14,30 @@ enum UI_State{
 	PAUSE,
 	VITORIA,
 	DERROTA,
-	
 }
-
 @onready var state = UI_State.StartLoading
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass
 
-
+	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT) and state == UI_State.StartLoading:
-		$StartLoading.visible = true
+func _input(event: InputEvent) -> void:
+	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
+		if state == UI_State.StartLoading:
+			state = UI_State.MENU
+		elif state == UI_State.MENU:
+			state = UI_State.SETTINGS
+			
+	match state:
+		UI_State.StartLoading: StartLoading()
+		UI_State.MENU: menu()
+		UI_State.SETTINGS: settings()
+		
+
+func StartLoading():
+	$StartLoading.visible = true
+	
+	
+func menu():
+	$menu.visible = true
+	
+func settings():
+	$settings.visible = true
