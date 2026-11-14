@@ -33,7 +33,6 @@ expand_mode = 1
 layout_mode = 0
 
 [node name="settings" type="TextureRect" parent="." unique_id=518862996]
-visible = false
 layout_mode = 0
 offset_right = 1020.0
 offset_bottom = 540.0
@@ -104,4 +103,4 @@ offset_bottom = 540.0
 texture = ExtResource("11_getpj")
 expand_mode = 1
 
-[connection signal="_go_settings" from="menu" to="." method="_on_menu__go_settings"]
+[connection signal="_go_settings" from="menu" to="." method="_on_menu_go_settings"]

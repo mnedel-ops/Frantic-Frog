@@ -24,23 +24,20 @@ func _input(event: InputEvent) -> void:
 	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
 		if state == UI_State.StartLoading:
 			state = UI_State.MENU
-		#elif state == UI_State.MENU:
-			#state = UI_State.SETTINGS
 			
 	match state:
 		UI_State.StartLoading: StartLoading()
 		UI_State.MENU: menu()
 		UI_State.SETTINGS: settings()
 		
-
 func StartLoading():
 	$StartLoading.visible = true
 	
 func menu():
 	$menu.visible = true
 	
+func _on_menu_go_settings() -> void:
+	state = UI_State.SETTINGS
+
 func settings():
 	$settings.visible = true
-
-func _on_menu__go_settings() -> void:
-	state = UI_State.SETTINGS
