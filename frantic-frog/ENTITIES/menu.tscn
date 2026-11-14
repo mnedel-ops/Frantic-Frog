@@ -5,9 +5,11 @@
 
 [node name="menu" type="Control" unique_id=810750684]
 layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("2_onw2j")
 
 [node name="menu" type="TextureRect" parent="." unique_id=1137034954]
@@ -17,11 +19,32 @@ offset_bottom = 540.0
 texture = ExtResource("1_w86cw")
 expand_mode = 1
 
-[node name="Button" type="Button" parent="." unique_id=824077233]
+[node name="settings" type="Button" parent="." unique_id=824077233]
 layout_mode = 0
 offset_left = 775.0
 offset_top = 26.0
 offset_right = 1001.0
 offset_bottom = 96.0
 
-[connection signal="pressed" from="Button" to="menu" method="_on_button_pressed"]
+[node name="jogar" type="Button" parent="." unique_id=2051744604]
+layout_mode = 0
+offset_left = 706.0
+offset_top = 384.0
+offset_right = 1004.0
+offset_bottom = 491.0
+
+[node name="amigos" type="Button" parent="." unique_id=1400844656]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 56.0
+offset_right = 256.0
+offset_bottom = 136.0
+
+[node name="adversarios" type="Button" parent="." unique_id=512662759]
+layout_mode = 0
+offset_left = 35.0
+offset_top = 142.0
+offset_right = 257.0
+offset_bottom = 220.0
+
+[connection signal="pressed" from="settings" to="menu" method="_on_button_pressed"]

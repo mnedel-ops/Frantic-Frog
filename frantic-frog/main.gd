@@ -15,6 +15,7 @@ enum UI_State{
 	VITORIA,
 	DERROTA,
 }
+
 func _ready() -> void:
 	for children in get_children():
 		children.visible = false
@@ -29,6 +30,9 @@ func _input(event: InputEvent) -> void:
 		UI_State.StartLoading: StartLoading()
 		UI_State.MENU: menu()
 		UI_State.SETTINGS: settings()
+		UI_State.ALBUMALIADOS: albumAliados()
+		UI_State.ALBUMINIMIGOS: albumAdversarios()
+		UI_State.HUD: jogar()
 		
 func StartLoading():
 	$StartLoading.visible = true
@@ -41,3 +45,10 @@ func _on_menu_go_settings() -> void:
 
 func settings():
 	$settings.visible = true
+
+func albumAliados():
+	pass
+func albumAdversarios():
+	pass
+func jogar():
+	pass
