@@ -42,5 +42,5 @@ func menu():
 func settings():
 	$settings.visible = true
 
-func _on_button_pressed() -> void: #botao de settings
+func _on_menu__go_settings() -> void:
 	state = UI_State.SETTINGS
