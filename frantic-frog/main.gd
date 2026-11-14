@@ -1,7 +1,7 @@
 extends Control
+class_name StateManager
 
-#comeca setando a visibilidade pra desligada. Quando jogador clica, ele vai na ordem, e move o estado para o de baixo
-#e liga a visibilidade.
+@onready var state = UI_State.StartLoading
 enum UI_State{
 	StartLoading,
 	MENU,
@@ -15,16 +15,17 @@ enum UI_State{
 	VITORIA,
 	DERROTA,
 }
-@onready var state = UI_State.StartLoading
+func _ready() -> void:
+	for children in get_children():
+		children.visible = false
 
-	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _input(event: InputEvent) -> void:
 	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
 		if state == UI_State.StartLoading:
 			state = UI_State.MENU
-		elif state == UI_State.MENU:
-			state = UI_State.SETTINGS
+		#elif state == UI_State.MENU:
+			#state = UI_State.SETTINGS
 			
 	match state:
 		UI_State.StartLoading: StartLoading()
@@ -35,9 +36,11 @@ func _input(event: InputEvent) -> void:
 func StartLoading():
 	$StartLoading.visible = true
 	
-	
 func menu():
 	$menu.visible = true
 	
 func settings():
 	$settings.visible = true
+
+func _on_button_pressed() -> void: #botao de settings
+	state = UI_State.SETTINGS

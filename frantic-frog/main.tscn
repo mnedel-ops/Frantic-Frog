@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cklkyf6lk1jbf" path="res://main.gd" id="1_dg77c"]
 [ext_resource type="Texture2D" uid="uid://cithuu7q3e8wf" path="res://ENTITIES/firstLoad.png" id="1_efxa6"]
-[ext_resource type="Texture2D" uid="uid://d0l3rl81xgw0m" path="res://ENTITIES/main.png" id="2_dg77c"]
+[ext_resource type="PackedScene" uid="uid://cicpaty7nn47p" path="res://ENTITIES/menu.tscn" id="3_dg77c"]
 [ext_resource type="Texture2D" uid="uid://bjn4xl66b5al5" path="res://ENTITIES/configuracoes.png" id="3_ycdy4"]
 [ext_resource type="Texture2D" uid="uid://cd6sij4ts0ps7" path="res://ENTITIES/albumAliados.png" id="4_w48qg"]
 [ext_resource type="Texture2D" uid="uid://bh2adws5l7ykx" path="res://ENTITIES/albumAdversarios.png" id="5_vivmo"]
@@ -23,20 +23,14 @@ grow_vertical = 2
 script = ExtResource("1_dg77c")
 
 [node name="StartLoading" type="TextureRect" parent="." unique_id=530461243]
-visible = false
 layout_mode = 0
 offset_right = 1020.0
 offset_bottom = 540.0
 texture = ExtResource("1_efxa6")
 expand_mode = 1
 
-[node name="menu" type="TextureRect" parent="." unique_id=588174248]
-visible = false
+[node name="menu" parent="." unique_id=1137034954 instance=ExtResource("3_dg77c")]
 layout_mode = 0
-offset_right = 1020.0
-offset_bottom = 540.0
-texture = ExtResource("2_dg77c")
-expand_mode = 1
 
 [node name="settings" type="TextureRect" parent="." unique_id=518862996]
 visible = false
