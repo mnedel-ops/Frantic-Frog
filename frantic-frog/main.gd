@@ -43,7 +43,6 @@ func menu():
 	
 func settings():
 	$settings.visible = true
-
 func albumAliados():
 	$AlbumAliados.visible = true
 func albumAdversarios():
@@ -53,7 +52,6 @@ func jogar():
 
 
 func _on_menu__go_settings() -> void:
-	$StartLoading.visible = false
 	state = UI_State.SETTINGS
 	
 func _on_menu__go_jogar() -> void:
