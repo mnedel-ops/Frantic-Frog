@@ -1,7 +1,5 @@
 extends Control
 class_name StateManager
-
-@onready var state = UI_State.StartLoading
 enum UI_State{
 	StartLoading,
 	MENU,
@@ -16,6 +14,9 @@ enum UI_State{
 	DERROTA,
 }
 
+@onready var state := UI_State.StartLoading
+var last_state := state
+
 func _ready() -> void:
 	for children in get_children():
 		children.visible = false
@@ -25,13 +26,14 @@ func _input(event: InputEvent) -> void:
 	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
 		if state == UI_State.StartLoading:
 			state = UI_State.MENU
-		#elif state == UI_State.MENU:
-			#state = UI_State.SETTINGS
 			
 	match state:
 		UI_State.StartLoading: StartLoading()
 		UI_State.MENU: menu()
 		UI_State.SETTINGS: settings()
+		UI_State.ALBUMALIADOS: albumAliados()
+		UI_State.ALBUMINIMIGOS: albumAdversarios()
+		UI_State.HUD: jogar()
 		
 func StartLoading():
 	$StartLoading.visible = true
@@ -43,16 +45,22 @@ func settings():
 	$settings.visible = true
 
 func albumAliados():
-	pass
+	$AlbumAliados.visible = true
 func albumAdversarios():
-	pass
+	$AlbumInimigos.visible = true
 func jogar():
-	pass
+	$HUD.visible = true
 
 
 func _on_menu__go_settings() -> void:
-	print("among")
 	$StartLoading.visible = false
 	state = UI_State.SETTINGS
-	$settings.visible = true
 	
+func _on_menu__go_jogar() -> void:
+	state = UI_State.HUD
+
+func _on_menu__go_amigos() -> void:
+	state = UI_State.ALBUMALIADOS
+
+func _on_menu__go_adversarios() -> void:
+	state = UI_State.ALBUMINIMIGOS

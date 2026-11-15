@@ -109,4 +109,7 @@ offset_bottom = 540.0
 texture = ExtResource("11_getpj")
 expand_mode = 1
 
+[connection signal="_go_adversarios" from="menu" to="." method="_on_menu__go_adversarios"]
+[connection signal="_go_amigos" from="menu" to="." method="_on_menu__go_amigos"]
+[connection signal="_go_jogar" from="menu" to="." method="_on_menu__go_jogar"]
 [connection signal="_go_settings" from="menu" to="." method="_on_menu__go_settings"]

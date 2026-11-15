@@ -48,3 +48,6 @@ offset_right = 257.0
 offset_bottom = 220.0
 
 [connection signal="pressed" from="settings" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="jogar" to="." method="_on_jogar_pressed"]
+[connection signal="pressed" from="amigos" to="." method="_on_amigos_pressed"]
+[connection signal="pressed" from="adversarios" to="." method="_on_adversarios_pressed"]
