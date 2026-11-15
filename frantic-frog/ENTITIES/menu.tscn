@@ -47,4 +47,4 @@ offset_top = 142.0
 offset_right = 257.0
 offset_bottom = 220.0
 
-[connection signal="pressed" from="settings" to="menu" method="_on_button_pressed"]
+[connection signal="pressed" from="settings" to="." method="_on_settings_pressed"]
