@@ -7,7 +7,7 @@
     "mime": "application/pdf",
     "blob": [
       293395,
-      359550
+      359825
     ]
   },
   "document": {
@@ -91,6 +91,273 @@
                   61.20650636492212,
                   373.7418670438477
                 ]
+              }
+            },
+            {
+              "id": 5,
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "rgb",
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "rgb",
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0
+                      }
+                    },
+                    "width": 1.0
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            500.15681020415354,
+                            557.0284194334338
+                          ],
+                          "in": [
+                            496.8431017051688,
+                            557.0284194334338
+                          ]
+                        },
+                        {
+                          "p": [
+                            793.8431897958466,
+                            557.0284194334338
+                          ],
+                          "out": [
+                            797.1568982948313,
+                            557.0284194334338
+                          ]
+                        },
+                        {
+                          "p": [
+                            799.8431897958466,
+                            563.0284194334338
+                          ],
+                          "in": [
+                            799.8431897958466,
+                            559.714710934449
+                          ]
+                        },
+                        {
+                          "p": [
+                            787.8431897958466,
+                            716.9715805665663
+                          ],
+                          "out": [
+                            787.8431897958466,
+                            720.2852890655511
+                          ]
+                        },
+                        {
+                          "p": [
+                            781.8431897958466,
+                            722.9715805665663
+                          ],
+                          "in": [
+                            785.1568982948313,
+                            722.9715805665663
+                          ]
+                        },
+                        {
+                          "p": [
+                            486.15681020415354,
+                            722.9715805665663
+                          ],
+                          "out": [
+                            482.8431017051688,
+                            722.9715805665663
+                          ]
+                        },
+                        {
+                          "p": [
+                            480.15681020415354,
+                            716.9715805665663
+                          ],
+                          "in": [
+                            480.15681020415354,
+                            720.2852890655511
+                          ]
+                        },
+                        {
+                          "p": [
+                            494.15681020415354,
+                            563.0284194334338
+                          ],
+                          "out": [
+                            494.15681020415354,
+                            559.714710934449
+                          ]
+                        }
+                      ],
+                      "closed": true
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": 6,
+              "appearance": {
+                "items": [
+                  {
+                    "kind": "fill",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "rgb",
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0
+                      }
+                    }
+                  },
+                  {
+                    "kind": "stroke",
+                    "paint": {
+                      "type": "solid",
+                      "color": {
+                        "model": "rgb",
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0
+                      }
+                    },
+                    "width": 2.0
+                  }
+                ]
+              },
+              "kind": {
+                "type": "path",
+                "path": {
+                  "subpaths": [
+                    {
+                      "anchors": [
+                        {
+                          "p": [
+                            823.3155318471954,
+                            373.7418670438477
+                          ],
+                          "in": [
+                            820.0018233482107,
+                            373.7418670438477
+                          ]
+                        },
+                        {
+                          "p": [
+                            1153.496218913323,
+                            373.7418670438477
+                          ],
+                          "out": [
+                            1156.8099274123078,
+                            373.7418670438477
+                          ]
+                        },
+                        {
+                          "p": [
+                            1159.496218913323,
+                            379.7418670438477
+                          ],
+                          "in": [
+                            1159.496218913323,
+                            376.428158544863
+                          ]
+                        },
+                        {
+                          "p": [
+                            1159.496218913323,
+                            542.0169167228458
+                          ],
+                          "out": [
+                            1159.496218913323,
+                            545.3306252218306
+                          ]
+                        },
+                        {
+                          "p": [
+                            1153.496218913323,
+                            548.0169167228458
+                          ],
+                          "in": [
+                            1156.8099274123078,
+                            548.0169167228458
+                          ]
+                        },
+                        {
+                          "p": [
+                            823.3155318471954,
+                            548.0169167228458
+                          ],
+                          "out": [
+                            820.0018233482107,
+                            548.0169167228458
+                          ]
+                        },
+                        {
+                          "p": [
+                            817.3155318471954,
+                            542.0169167228458
+                          ],
+                          "in": [
+                            817.3155318471954,
+                            545.3306252218306
+                          ]
+                        },
+                        {
+                          "p": [
+                            817.3155318471954,
+                            379.7418670438477
+                          ],
+                          "out": [
+                            817.3155318471954,
+                            376.428158544863
+                          ]
+                        }
+                      ],
+                      "closed": true
+                    }
+                  ]
+                },
+                "live": {
+                  "shape": "rectangle",
+                  "w": 342.1806870661276,
+                  "h": 174.27504967899813,
+                  "radii": [
+                    6.0,
+                    6.0,
+                    6.0,
+                    6.0
+                  ],
+                  "xf": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    817.3155318471954,
+                    373.7418670438477
+                  ]
+                }
               }
             }
           ]
@@ -1074,7 +1341,7 @@
     },
     "raster_effects_ppi": 300.0,
     "images": {},
-    "next_id": 5,
+    "next_id": 7,
     "metadata": {
       "author": "",
       "authorTitle": "",
@@ -1085,15 +1352,15 @@
       "copyrightNotice": "",
       "copyrightUrl": "",
       "created": 1794941861,
-      "modified": 1794942162
+      "modified": 1794947348
     },
     "last_view": {
       "name": "",
       "center": {
-        "x": 520.9150328341627,
-        "y": 800.2848244945602
+        "x": 664.4596034456174,
+        "y": 532.4848554939509
       },
-      "zoom": 0.2314044979875785,
+      "zoom": 0.7530760733256979,
       "rotation": 0.0
     }
   },
@@ -2725,9 +2992,9 @@ endobj
 <</Type/Page/Resources 2 0 R/MediaBox[0 0 2048 2048]/BleedBox[0 0 2048 2048]/TrimBox[0 0 2048 2048]/Parent 1 0 R/Contents 4 0 R>>
 endobj
 4 0 obj
-<</Length 94/Filter/FlateDecode>>
+<</Length 368/Filter/FlateDecode>>
 stream
-xú5 ªÑ@¿ú*^∆œ?÷9PÒÈDF˘ß[Ñ&ùÆä?≤@m·÷Âs	u‚¸¨∑bˇ.«r°ÍŸU∞”J›¿ÍêÙy˘^kü7ÿ(>9AÀÀa3€Ã?>∆
+xúÌì9jAFÛ9E]¿Â⁄ó\ô#°#ÉÁ«(≤èofoÉå9Ãxt}UEøÇ¡zòò9;‘ÄKçîa~|˛EÙczû^!b∑#@Ö¬)Å£ΩX7óOWZ7◊∏!xóX‹QºdìÂîyS?≠!+òXœwp"dè˜Dí2Éd+ñ©pÅÏ\Õ`vü^c≤Â@BiÜ¨‹ar`'{¨◊]P•\!À˜)rhY|J'ö¡*ˆ»7\¿JVìhu¥vU∏…dk;&pE^xvf{Åª˝7f7Oﬂ¶Øù:¶e∫adâí≠—*ﬁÑMî›≠Âc-Ôøñó?Üıa*ª;h*¶q9<ÄŸ≠C∫¨4∞®{†ÃﬁßhRÎ√Xﬁ<P7A‚Ë˝ :™RU‹j˜Ó8öá‰\†ÑêàKoXúówî—e‡ùz˘Éû˝›EÓ9º5«˜z??ˆ$ˇwO/”Ûo§„VÁ
 endstream
 endobj
 5 0 obj
@@ -4069,12 +4336,12 @@ X∞˙≠»5oGæˆˆ¬◊¿^{·Îæπn—õo/Zªn—⁄wÅ∑÷/~{C‘∫ƒ®uâ—Îcﬁ!$«ºìºl}jÏ{lÇ=61cyR∆ dG\
 endstream
 endobj
 8 0 obj
-<</Title(Untitled-1)/Creator(VectorCraft)/Producer(VectorCraft)/ModDate(D:20261117190242Z)/CreationDate(D:20261117185741Z)>>
+<</Title(Untitled-1)/Creator(VectorCraft)/Producer(VectorCraft)/ModDate(D:20261117202908Z)/CreationDate(D:20261117185741Z)>>
 endobj
 9 0 obj
 <</Length 1060/Type/Metadata/Subtype/XML>>
 stream
-<?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="xmp-writer"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:xmp="http://ns.adobe.com/xap/1.0/"  xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"  xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"  xmlns:pdf="http://ns.adobe.com/pdf/1.3/" ><dc:title><rdf:Alt><rdf:li xml:lang="x-default">Untitled-1</rdf:li></rdf:Alt></dc:title><xmp:CreatorTool>VectorCraft</xmp:CreatorTool><pdf:Producer>VectorCraft</pdf:Producer><xmp:ModifyDate>2026-11-17T19:02:42+00:00</xmp:ModifyDate><xmp:CreateDate>2026-11-17T18:57:41+00:00</xmp:CreateDate><xmpTPg:NPages>1</xmpTPg:NPages><dc:format>application/pdf</dc:format><xmpMM:InstanceID>wco0rUEg50v+X2e5MvtS8g==</xmpMM:InstanceID><xmpMM:DocumentID>wco0rUEg50v+X2e5MvtS8g==</xmpMM:DocumentID><xmpMM:RenditionClass>default</xmpMM:RenditionClass><pdf:PDFVersion>1.7</pdf:PDFVersion></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end="r"?>
+<?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="xmp-writer"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:xmp="http://ns.adobe.com/xap/1.0/"  xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"  xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"  xmlns:pdf="http://ns.adobe.com/pdf/1.3/" ><dc:title><rdf:Alt><rdf:li xml:lang="x-default">Untitled-1</rdf:li></rdf:Alt></dc:title><xmp:CreatorTool>VectorCraft</xmp:CreatorTool><pdf:Producer>VectorCraft</pdf:Producer><xmp:ModifyDate>2026-11-17T20:29:08+00:00</xmp:ModifyDate><xmp:CreateDate>2026-11-17T18:57:41+00:00</xmp:CreateDate><xmpTPg:NPages>1</xmpTPg:NPages><dc:format>application/pdf</dc:format><xmpMM:InstanceID>uaEWV+HjNlL3G+KSqaqCEg==</xmpMM:InstanceID><xmpMM:DocumentID>uaEWV+HjNlL3G+KSqaqCEg==</xmpMM:DocumentID><xmpMM:RenditionClass>default</xmpMM:RenditionClass><pdf:PDFVersion>1.7</pdf:PDFVersion></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end="r"?>
 endstream
 endobj
 10 0 obj
@@ -4087,14 +4354,14 @@ xref
 0000000067 00000 n
 0000000159 00000 n
 0000000304 00000 n
-0000000465 00000 n
-0000067291 00000 n
-0000138662 00000 n
-0000357860 00000 n
-0000358000 00000 n
-0000359136 00000 n
+0000000740 00000 n
+0000067566 00000 n
+0000138937 00000 n
+0000358135 00000 n
+0000358275 00000 n
+0000359411 00000 n
 trailer
-<</Size 11/Root 10 0 R/Info 8 0 R/ID[(wco0rUEg50v+X2e5MvtS8g==)(wco0rUEg50v+X2e5MvtS8g==)]>>
+<</Size 11/Root 10 0 R/Info 8 0 R/ID[(uaEWV+HjNlL3G+KSqaqCEg==)(uaEWV+HjNlL3G+KSqaqCEg==)]>>
 startxref
-359197
+359472
 %%EOF
