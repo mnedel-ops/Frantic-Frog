@@ -7,7 +7,7 @@
     "mime": "application/pdf",
     "blob": [
       376547,
-      471108
+      473340
     ]
   },
   "document": {
@@ -1767,6 +1767,409 @@
                   ]
                 }
               }
+            },
+            {
+              "id": 58,
+              "appearance": {
+                "items": [],
+                "effects": [
+                  {
+                    "id": "distort.freeDistort",
+                    "params": {
+                      "corners": [
+                        [
+                          0.04,
+                          0.0
+                        ],
+                        [
+                          1.04,
+                          0.0
+                        ],
+                        [
+                          1.0,
+                          1.0
+                        ],
+                        [
+                          0.0,
+                          1.0
+                        ]
+                      ]
+                    },
+                    "visible": true
+                  }
+                ]
+              },
+              "kind": {
+                "type": "group",
+                "children": [
+                  {
+                    "id": 54,
+                    "appearance": {
+                      "items": [
+                        {
+                          "kind": "fill",
+                          "paint": {
+                            "type": "solid",
+                            "color": {
+                              "model": "cmyk",
+                              "c": 0.0,
+                              "m": 0.63,
+                              "y": 0.85,
+                              "k": 0.05
+                            }
+                          }
+                        },
+                        {
+                          "kind": "stroke",
+                          "paint": {
+                            "type": "solid",
+                            "color": {
+                              "model": "rgb",
+                              "r": 0.0,
+                              "g": 0.0,
+                              "b": 0.0
+                            }
+                          },
+                          "width": 1.0
+                        }
+                      ]
+                    },
+                    "kind": {
+                      "type": "path",
+                      "path": {
+                        "subpaths": [
+                          {
+                            "anchors": [
+                              {
+                                "p": [
+                                  611.8895552356853,
+                                  135.4051533791065
+                                ],
+                                "in": [
+                                  611.3973150293648,
+                                  135.4051533791065
+                                ]
+                              },
+                              {
+                                "p": [
+                                  690.1069957626191,
+                                  135.4051533791065
+                                ],
+                                "out": [
+                                  690.5992359689396,
+                                  135.4051533791065
+                                ]
+                              },
+                              {
+                                "p": [
+                                  690.9982754991522,
+                                  136.29643311563964
+                                ],
+                                "in": [
+                                  690.9982754991522,
+                                  135.8041929093192
+                                ]
+                              },
+                              {
+                                "p": [
+                                  690.9982754991522,
+                                  179.51387364257337
+                                ],
+                                "out": [
+                                  690.9982754991522,
+                                  180.00611384889382
+                                ]
+                              },
+                              {
+                                "p": [
+                                  690.1069957626191,
+                                  180.4051533791065
+                                ],
+                                "in": [
+                                  690.5992359689396,
+                                  180.4051533791065
+                                ]
+                              },
+                              {
+                                "p": [
+                                  611.8895552356853,
+                                  180.4051533791065
+                                ],
+                                "out": [
+                                  611.3973150293648,
+                                  180.4051533791065
+                                ]
+                              },
+                              {
+                                "p": [
+                                  610.9982754991522,
+                                  179.51387364257337
+                                ],
+                                "in": [
+                                  610.9982754991522,
+                                  180.00611384889382
+                                ]
+                              },
+                              {
+                                "p": [
+                                  610.9982754991522,
+                                  136.29643311563964
+                                ],
+                                "out": [
+                                  610.9982754991522,
+                                  135.8041929093192
+                                ]
+                              }
+                            ],
+                            "closed": true
+                          }
+                        ]
+                      },
+                      "live": {
+                        "shape": "path",
+                        "base": {
+                          "subpaths": [
+                            {
+                              "anchors": [
+                                {
+                                  "p": [
+                                    610.9982754991522,
+                                    135.4051533791065
+                                  ]
+                                },
+                                {
+                                  "p": [
+                                    690.9982754991522,
+                                    135.4051533791065
+                                  ]
+                                },
+                                {
+                                  "p": [
+                                    690.9982754991522,
+                                    180.4051533791065
+                                  ]
+                                },
+                                {
+                                  "p": [
+                                    610.9982754991522,
+                                    180.4051533791065
+                                  ]
+                                }
+                              ],
+                              "closed": true
+                            }
+                          ]
+                        },
+                        "radii": [
+                          0.8912797365331355,
+                          0.8912797365331355,
+                          0.8912797365331355,
+                          0.8912797365331355
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "id": 55,
+                    "blend": "Darken",
+                    "appearance": {
+                      "items": [
+                        {
+                          "kind": "fill",
+                          "paint": {
+                            "type": "solid",
+                            "color": {
+                              "model": "gray",
+                              "k": 0.7
+                            }
+                          }
+                        },
+                        {
+                          "kind": "stroke",
+                          "paint": {
+                            "type": "solid",
+                            "color": {
+                              "model": "rgb",
+                              "r": 0.0,
+                              "g": 0.0,
+                              "b": 0.0
+                            }
+                          },
+                          "width": 0.0
+                        }
+                      ]
+                    },
+                    "kind": {
+                      "type": "path",
+                      "path": {
+                        "subpaths": [
+                          {
+                            "anchors": [
+                              {
+                                "p": [
+                                  610.9982754991522,
+                                  174.69664007496436
+                                ]
+                              },
+                              {
+                                "p": [
+                                  690.9982754991522,
+                                  174.69664007496436
+                                ]
+                              },
+                              {
+                                "p": [
+                                  690.9982754991522,
+                                  180.4051533791065
+                                ]
+                              },
+                              {
+                                "p": [
+                                  610.9982754991522,
+                                  180.4051533791065
+                                ]
+                              }
+                            ],
+                            "closed": true
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "id": 56,
+                    "blend": "SoftLight",
+                    "appearance": {
+                      "items": [
+                        {
+                          "kind": "fill",
+                          "paint": {
+                            "type": "solid",
+                            "color": {
+                              "model": "gray",
+                              "k": 0.4
+                            }
+                          }
+                        },
+                        {
+                          "kind": "stroke",
+                          "paint": {
+                            "type": "solid",
+                            "color": {
+                              "model": "rgb",
+                              "r": 0.0,
+                              "g": 0.0,
+                              "b": 0.0
+                            }
+                          },
+                          "width": 0.0
+                        }
+                      ]
+                    },
+                    "kind": {
+                      "type": "path",
+                      "path": {
+                        "subpaths": [
+                          {
+                            "anchors": [
+                              {
+                                "p": [
+                                  610.9982754991522,
+                                  135.4051533791065
+                                ]
+                              },
+                              {
+                                "p": [
+                                  676.4335708039292,
+                                  135.4051533791065
+                                ]
+                              },
+                              {
+                                "p": [
+                                  682.7055151786858,
+                                  141.15376006848933
+                                ]
+                              },
+                              {
+                                "p": [
+                                  610.9982754991522,
+                                  141.15692438716243
+                                ]
+                              }
+                            ],
+                            "closed": true
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "id": 57,
+                    "blend": "SoftLight",
+                    "appearance": {
+                      "items": [
+                        {
+                          "kind": "fill",
+                          "paint": {
+                            "type": "solid",
+                            "color": {
+                              "model": "cmyk",
+                              "c": 0.0,
+                              "m": 0.0,
+                              "y": 0.0,
+                              "k": 1.0
+                            }
+                          }
+                        },
+                        {
+                          "kind": "stroke",
+                          "paint": {
+                            "type": "solid",
+                            "color": {
+                              "model": "rgb",
+                              "r": 0.0,
+                              "g": 0.0,
+                              "b": 0.0
+                            }
+                          },
+                          "width": 0.0
+                        }
+                      ]
+                    },
+                    "kind": {
+                      "type": "path",
+                      "path": {
+                        "subpaths": [
+                          {
+                            "anchors": [
+                              {
+                                "p": [
+                                  690.9982754991522,
+                                  135.4051533791065
+                                ]
+                              },
+                              {
+                                "p": [
+                                  690.9982754991522,
+                                  148.75456367949573
+                                ]
+                              },
+                              {
+                                "p": [
+                                  676.4335708039292,
+                                  135.4051533791065
+                                ]
+                              }
+                            ],
+                            "closed": true
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "clip": false
+              }
             }
           ]
         }
@@ -2748,7 +3151,7 @@
     },
     "raster_effects_ppi": 300.0,
     "images": {},
-    "next_id": 54,
+    "next_id": 59,
     "metadata": {
       "author": "",
       "authorTitle": "",
@@ -2759,15 +3162,15 @@
       "copyrightNotice": "",
       "copyrightUrl": "",
       "created": 1794941861,
-      "modified": 1795026917
+      "modified": 1795088399
     },
     "last_view": {
       "name": "",
       "center": {
-        "x": 601.9756322805393,
-        "y": 483.7284902366055
+        "x": 553.4520974061915,
+        "y": 163.37536628712988
       },
-      "zoom": 1.3306241253597113,
+      "zoom": 2.883432059080619,
       "rotation": 0.0
     },
     "transparency_grid": true
@@ -4845,14 +5248,21 @@ xú+T0T0P0P–QF&
 endstream
 endobj
 16 0 obj
-<</Length 1209/Type/XObject/Subtype/Form/Filter/FlateDecode/Resources 10 0 R/BBox[24.206507 1265.8003 814.153 1939.4031]/Group<</S/Transparency/CS/DeviceCMYK          >>>>
+<</Length 3441/Type/XObject/Subtype/Form/Filter/FlateDecode/Resources 10 0 R/BBox[24.206507 1265.8003 814.153 1939.4031]/Group<</S/Transparency/CS/DeviceCMYK          >>>>
 stream
-xúÌòœé‹6∆Ô˚zÅr)˛ÔzË)»#Ë®E–CÛ¯ÖÏ±DœÃR {[HêlÈ©è‰¯[aƒ“ˇ‘j•b@ı0ñR1r-À€Îw,ø˛˝ÚÂÂ[1€ü6+$@hä^™ÖÄ∂ €≥ıxñÇ∑g•F!`£R…‚˛0◊Ì—_˙?Ñ“ Ú÷Ñ¶µ¸UT*4≠T™ ∏πQy+Ü$¡	Æt©ö†!CT+U*T3Ûf⁄¢,∫@’*€Çö∞i⁄ƒP»Z3–íd∏nêµE~[!4"ÌqBõñ%±CÙzf˚·“#"∏º¸˘Ú«ªI wîûoDN=f¡$≠ bCD-ø¶Á£“Ûıxƒ¬†ír!óÚV\îX$—µ∏:`UO∞#©‚˝u6ˆv√öRY2ı,MØ+Nÿ›“.@-´9–ítl-
-∆å6aGƒí÷œdì±L4ÙÆ'∂ü+≠>Œˇ z?œü©˘Ä‘ºÁç◊ñÀ?è‚Ñ@µπû-B®g7¨Á»°F‹ﬂV®Uòœà¢5Ô–™˘uΩ+¿@J;{L%”IÙÙGá»B…H^Zì¥CBáí%”!zΩ°«È∆.)˜1LFaá`#⁄GP™ÖC@ÑÖJm,–¢˜€∑◊Ô¸˛z©[ÅÀ%7C±ÿ˙ˇÏÃ=˜Î‹t«·xˇâÁ_/¥+≤ì¢4ëhThπÜØE√˙“[±W®b’Œ]°√¶7pºˇ¥u“ˇj˝v3ö∂õ˙Ø~ `/÷nß´}™ÙVQ¸ƒΩènßBÔ‡·JwÂ_C–Ê.≥˙Z“Ì¢ÛÂ :c8Í∫˙DáåÏº°8;omÏ0#pΩÂÓ¬~œ{˜MeQUÑ`ïˇ◊‰—Î3˘ÑMu´π:’"≠€xÈl$õ©‰ô©xø¬≠\fı5ÇäD∂√ÚÑÆÈ∏ÎŒ{„ΩGÛ≈ß—ì]FîK O÷1/TñíÆY∫.©≤ﬁ±“3îH‡ÕE∏yæ+˚˙Z˝4@ÂkÜéz€∞û{C "Î±⁄Äï%-ü∞´»ù·êõ.¿-NëJZ|˛W∞Lv∫û»qö±t:Ù]ƒûNM[¡⁄Z3YˇYß¢M
-;ÉDtÀ4$`%≥	◊“∞˚û}≤VLπpØ⁄Ë M¿#¨,π!hDoY#CÊ⁄Óµmú$¥L≠ÉıäÌ@’Y'T!®ÍaiáÃÆBñá‡5√qÆπ…8¸}‹~‚oπœú¸ƒúº?§Í^Ωœé@˝k	Gø›ío≈õÇZTMt-*%Ë€»\Q
-áFÀH¡Tek›É∫∏»ÊÛ	Å±Vùõ∏
-4‘§f≤e
-üp-j÷§%®Ü˝˚Rp⁄$±CÕí‡æ&:N86ôqx≈Á¸öÅV~+V˛˝Ã¬Gf·˝ªL¡ΩˆsB¿ƒÊ›—Ù“<iø±ï\-—yãM˘vã'sà∫7∫‰Å ™€…≤I”&…CŒ…C˙Ÿ÷zcxhÇÎ.ŸW59˙Cw˛<‡ÿc∆·Qü∑ÜÌVœTÔÃ€∑änÖœtƒG¶„ÎÀóˇ P9∞
+xúÌ[Õä%ªﬁﬂß®à∆˙ó˜Å,≤
+yÑô@z!ã‰Ò√Á:ß >U3Ã˜ÓöÜÈû´,[∂$ˇk”÷6¸0«∆≠gµçKî¨)oèo_˛€∂?˛Ûóø¸ÚØ-b±âë¥ñG7Úbc˘5V∫é±∆}Ì§ŸC6ñp™÷ˆ¡ÚÃcËKö’ˆ¯ÄB∑FÂ[£Ê€?67¶rñç≠QFÜlﬂ∂hBb]'cÄiÏMâ≠yllL˘ÜÖWﬂ3òFÏl„É3¶·”$È‘L¢&fË1±}ÄTØ>Sª5Íﬁ˚4«^ˆb˙c≈ˆ≈M3õp≥Éè_˛˛Àﬂæ+JÀtà!≤Dõ·ØË*ﬁ!ñﬁZˆﬁu˚Ûßp~/·¸ıWXHÙ ◊MÃ®á•mﬂ∂Ù 5õ–è-=©±Á2∂πìÜfΩaÂ—d{Ãh©ï?øxÇe-cö%;âˆöπyAèâÔˆ±Ew
+’'H‘¶Ôœ»`„qBø∂Øk˙˙±˛õ›˚≠¨„S0øÉ`æg_æ∂ÌÎøÔÏ#•ëp•Ø"ER]g[¯®•ˆŸ@§(DAÌƒl™+$Ω*aòEΩy‰Û{O∞SÎM¶„899çcb˙¥ÄMM&3JÓTea”Ù‚‰1£”oËku«,”&\˜p2MÍ"˚±¢y3·Mªëôöl\jT±ˆ€óˇÍ˜è _æÚ#ÈˆuÑç¢[Ù˚œ®¸B◊X=‹„∑‡AˇãˇÚUvéb·h:çxg™ŸÉlﬁüÆﬁâ-8÷ò ∞¸<ËËÄ í·üÇvk£^oﬁﬂ©Á"A∏Í†åEµ?‹,,»Z‚ÿ∂∏˘§ÏÈrq˛ﬁ≠≈9ÀÈ˚_ºL⁄}0=+w'â.´aı¸˙	Ωÿò-Ô‡x∂ºsi«Á\wÔÒ∫∞Î9bÔtòúèßÍç∫∫aˇo‘‰é¸æ4°rÑö≠m ‘≤ÖfÖcƒ8Zf#±aTˆ#£“]Ök˚zzﬂ‚&√bÀ'Ë)éKlﬁ√Ó:	∏{∂≥—∑Øì|f>NÖöYô‘lRó…≥^∞ü‚Á‡ƒ»z{;?IëVŒ∫≤ﬂ9ó„”¨f-õøGá∆klË‘ö˙Îk»j”Ágÿπò#√ã›y·FÍΩ¶c qõ>~˛Á‡qbOF?‰µö„””¢/;ˆ√3”pX#4K‡JÁJÊeõ¶íıì©&§.'¯±UÉ›kûX±R∏n
+è‡p†RFŸ{lè h‰Ω#<úP‡ŸÌ¸v&„–¶Ù8y=0xÏ$·T?A7!ˆÏ1Õ0cOFx0¸1É«∫ŒIé≈_˜Ì7ª«}J‰7î»˜è®æ˚øƒI"	Ú$⁄°0»o[ñìGgü–è-;K»Ê80s≥MªSÎ5C÷Öªç¿}†iFi6¨¸Ωë6f?'I7™Ê='nNÏq2~ÇõáQî’z4dñ∫NìLÿãõ«ûåLË±¬císnvÒ«Ò˚)Å⁄˛¥≈ˆüO)¸ûR¯~c∑Äp d§‰LHE#a∑8ÊÖ∆*±§«ÑûZfTíCãO,©ÛÊ&Ë$<V6€Äê6Òií…v8X_ç@(
+a·÷û≥Ã6‰fﬁ˝ÉÔyÛœsú˚p∑è?„zI!.;20ÖOq¸Æ‚¯U)=vj’›6V'kŒékuÁ>Å¡E≈∏`üê ﬁáO–cr≠Z∆Y√5bÇÇ$Ùù¥êáYI;ı*û!E≥Y¨¥™î,ôÀH'O_âìL”ﬁh;IÔ#ó*mÊ0L©âΩsUƒÃOXP⁄≤}VÃ∫ízCÜ&f4`ΩÍ}a∆ç∏◊;qPã∂LÎI]dô◊;e˘º˜è-Ç),“PÚÜ‹¿9i ;i‚∂lK µ|.G™Ågq<∂H°î4¶ÅÒ∫»<É‹ÇﬂÑîE÷jùπI∂\1!	æÖ∫î˙™ÂQ»Æ
+SI)8eØ¥ùºp˘úFv&3[àªí¢`5ìv≈9Oñ≠ÈFœùÆf≤#:‘%Hz« ∞µ(ÃZ‘:| >W9l´Sı¨æœ‡-Q†bä^Å4DrcßEEí¡jêm≠!ª≠§Cq-â[€SÂJ¢Öl2zÏ`Oâñ‡ç≤â‡cBΩƒ6v!oÚÃ≤#â` ç¥!Æv°®∑q3”y/∞e=ˆI»≤…∆P◊Ü∫ 5A·0òº¯∏Mﬁ8∆VÎæOB≠ÜÑ∑cÍ#‘[ç¥/2"8qseÎ#ù4‹\6rnceLûcRHπı|
+ﬂCïåqòrBı“©≥å´'“%î¨O=i¡ëŸ…YGw†πq5ô±…„‚Ü-≠vhJ#ÜFî±HÜ‚ù√*Há0&»6ø
+≈P˜iT£FqB»„™ÚJöâ+zÆqë/[1%µx'f≤a‡Á∏Ë¬–≈	KJÔ˜LårnHciH˚ä	ÒpU1.0¥súŸp|‰√AŒ§nî√ëN„Ñv5õ†F}∏Âô‘êÒÖ◊π‘Ö‘úlÑÉÖT…·¶aLQı91ÿæÿ(£O¥Håá¥E‘záoò0#—‘7≠R!M_Wß∞	Y7â$op¬3µÂ“”@£>B˘)µÚRF>hﬁ˝‡N:îd„†1ì2≤≠#„éÉ3Ñ=OSçBËB §=ó-ˆnì|kº|µræq|„4¯∆π’Ò≠≥‚ãS„◊«w>íØæîØóo]3_}8_=ﬂ≈æ∆æFæ	B|çU|çh|˙¯#˘&îÚ]ÃÂKhf#4ÑØ'Êﬂ¨é˚yˇ<çû∆?O„üßÒœ”¯Ái¸Û4˛yˇ<çû∆ˇè”¯_¶Îk‹—˙œFKtè@it‹HZ·˙u†òFX«ÔƒíòkÜpÖË‘De(ç∫ÓÊ&T:n◊3µ•&r”»†0Q]∞"∑lo‘ä"„ûséƒÕﬁ√s¡å$WÒÖ:–=å¥Î4≤ê˘Ajw¬:ıÙx£Fwq5[∏4EÓ◊Œ	säÍHo/‘â∂+‹æßë=‰NÃØC∂ÊF`~#0øòﬂ,n∑ãÅ≈ç¿‚V`y#∞ºXﬁ
+,oñ7À[Å’ç¿ÍF`u+∞∫X›¨ﬂ
+¨3IrÅ¨ßÌ9VV‰»–ÅåÙÁ5ΩV(6,Y$¬µ&å I∞≠•‚ï»í/*&À%õÖÕÚ@vÁ-±fÊ“)—dº¶?ÀótÍû˛Ï„À4ÆQ≥5CEl¸ñ9ç —XíTa§∫$I°ó£›Ù=ıÈ"KFŒQÄZsÅh†d'ﬁRü’rŸMB÷Od>ﬂEcW—ÿçhÏ*ªäFÔD£W—ËU4z'ΩäFØ¢ë;—»U4rç‹âFÆ¢·´h¯N4|_D√w¢·´uÒ’o¬·„g˚ïGÓl≠QÓu‰∆ÿœ)`'ï*Q'¨S8À{9ò…áS9XIj©8á ıπ‘•w˘t·µí\î⁄ëµú™¡ç‹s.ør·o’Q≈‚∞1Ñ•µw⁄Dπ~-Bw
+ÛÂÃ›ÈÔud¨≠A©¶ë£iœ•∂‹◊=1VOï_,n≠∫£∂5°s!Ÿàﬂ6µÂ6ü-≈ÂZ˜tèû°PûπÃdÎÆ¢∫,πå⁄ã;ÌmSë€Êµ ﬂòíK}}ùnæ‘‚GË\ãÈ»Ω#-æí˙”B¶qIı¶ßâï°¡h≠7¥xcs…DºrH3Ia≈6è—yP$âò∏ 7BBÎÏË1B°é;‘√qw§ÊÀ…:B+z\3ûƒ·®±Ï`!ﬁ2#0ÔPó=‘ÿ–~JÄˇÇøŸ°V„‡†M!é„;ea•ºÍı!xQDU«∆'ûg<°˝l”≠ÍÄ^}Ã O0á¿—Àrƒ+«P2XvæCÖºO¥£%{'É˚IçÃ>
+„yÊ¿ˆ¬¥7Î¢¨≈	qáßAAW ëQ ÄÕÑîh¿Åˆ°\ˆDj‡πZ∑!*∑<AﬂªE§¡Ïâ‚Y^ÙcŒQBTCM‡Öı=¶uX⁄UéòVé∫Ïı˝ƒn‘xÉhFSTBQ&⁄!Ê·ÂTÛêbxáä◊A˝XFHÌ7ü0ç÷JPæzb{°DFΩ∆±£(‰õíE¶N⁄¸cå´£öq2°«)$üoﬂQﬁ©é†∞cËy›À;éRÙ∞óB5JQj|Yg@}4ï‡¡ZÔˆËŸÇ;Â(ÅÜ÷<jj◊Võ_ıL£ﬂÖAÙrtŸΩFUç>•^„*[·Ï≠U„6Ä“ï„Mœ≥Ö$„©Å™%;qd√nçÜ€â=Ü@PìC¯⁄iÕG!—%⁄∂ws‡ôteiﬁ?'6ÓO–v7ﬂâœ¥≈ƒ}ÊŸ§–s4JûYˆ·≠:ïaùò√8áî™(GÈÔ‡f‹∫å
+w,£ÇÃP7°ñË¸)J~8z@¬=>Ø’˝·∆_ÿˆFÆ¢4ÒQ˚+4…Àÿ˝§–÷ûMÅ◊0xÛ¸]◊Œ$o=o%T£H:AFÜwlo¥®ç∆[#öâ÷Ó≥Í§£røÙaôKß‘hí˝·omC∑ä˘?ßÂ|
 endstream
 endobj
 17 0 obj
@@ -6649,12 +7059,12 @@ VΩÇU_œÆØgÀ‰l©å#ïqƒbVùòUW«◊“kj«ÍòÂ†.DT"¨U-™ÊsU˘k?ŒÿzuÎûæÕÖ}õ˙”˙“Û˚”Û¿'
 endstream
 endobj
 22 0 obj
-<</Title(Untitled-1)/Creator(VectorCraft)/Producer(VectorCraft)/ModDate(D:20261118183517Z)/CreationDate(D:20261117185741Z)>>
+<</Title(Untitled-1)/Creator(VectorCraft)/Producer(VectorCraft)/ModDate(D:20261119113959Z)/CreationDate(D:20261117185741Z)>>
 endobj
 23 0 obj
 <</Length 1060/Type/Metadata/Subtype/XML>>
 stream
-<?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="xmp-writer"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:xmp="http://ns.adobe.com/xap/1.0/"  xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"  xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"  xmlns:pdf="http://ns.adobe.com/pdf/1.3/" ><dc:title><rdf:Alt><rdf:li xml:lang="x-default">Untitled-1</rdf:li></rdf:Alt></dc:title><xmp:CreatorTool>VectorCraft</xmp:CreatorTool><pdf:Producer>VectorCraft</pdf:Producer><xmp:ModifyDate>2026-11-18T18:35:17+00:00</xmp:ModifyDate><xmp:CreateDate>2026-11-17T18:57:41+00:00</xmp:CreateDate><xmpTPg:NPages>1</xmpTPg:NPages><dc:format>application/pdf</dc:format><xmpMM:InstanceID>ok51WxdHNp9F4xkwR7Q8Og==</xmpMM:InstanceID><xmpMM:DocumentID>ok51WxdHNp9F4xkwR7Q8Og==</xmpMM:DocumentID><xmpMM:RenditionClass>default</xmpMM:RenditionClass><pdf:PDFVersion>1.7</pdf:PDFVersion></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end="r"?>
+<?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="xmp-writer"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:xmp="http://ns.adobe.com/xap/1.0/"  xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"  xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"  xmlns:pdf="http://ns.adobe.com/pdf/1.3/" ><dc:title><rdf:Alt><rdf:li xml:lang="x-default">Untitled-1</rdf:li></rdf:Alt></dc:title><xmp:CreatorTool>VectorCraft</xmp:CreatorTool><pdf:Producer>VectorCraft</pdf:Producer><xmp:ModifyDate>2026-11-19T11:39:59+00:00</xmp:ModifyDate><xmp:CreateDate>2026-11-17T18:57:41+00:00</xmp:CreateDate><xmpTPg:NPages>1</xmpTPg:NPages><dc:format>application/pdf</dc:format><xmpMM:InstanceID>G86b91sEaclctc8uNuv7yA==</xmpMM:InstanceID><xmpMM:DocumentID>G86b91sEaclctc8uNuv7yA==</xmpMM:DocumentID><xmpMM:RenditionClass>default</xmpMM:RenditionClass><pdf:PDFVersion>1.7</pdf:PDFVersion></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end="r"?>
 endstream
 endobj
 24 0 obj
@@ -6679,16 +7089,16 @@ xref
 0000000927 00000 n
 0000001018 00000 n
 0000001255 00000 n
-0000002670 00000 n
-0000069497 00000 n
-0000140869 00000 n
-0000360068 00000 n
-0000415507 00000 n
-0000469134 00000 n
-0000469275 00000 n
-0000470412 00000 n
+0000004902 00000 n
+0000071729 00000 n
+0000143101 00000 n
+0000362300 00000 n
+0000417739 00000 n
+0000471366 00000 n
+0000471507 00000 n
+0000472644 00000 n
 trailer
-<</Size 25/Root 24 0 R/Info 22 0 R/ID[(ok51WxdHNp9F4xkwR7Q8Og==)(ok51WxdHNp9F4xkwR7Q8Og==)]>>
+<</Size 25/Root 24 0 R/Info 22 0 R/ID[(G86b91sEaclctc8uNuv7yA==)(G86b91sEaclctc8uNuv7yA==)]>>
 startxref
-470474
+472706
 %%EOF
