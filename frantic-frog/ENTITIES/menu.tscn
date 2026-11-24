@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://wjn340rxy37t" path="res://SCRIPTS/pageMenu.gd" id="2_onw2j"]
 [ext_resource type="StyleBox" uid="uid://lbbq1w3bspcl" path="res://ButtonHolder.tres" id="3_ogumk"]
 [ext_resource type="Texture2D" uid="uid://uukphpctmlmc" path="res://icon.svg" id="4_x3g1m"]
-[ext_resource type="Texture2D" uid="uid://ce0nq3wmqucks" path="res://ENTITIES/Button2Asset-1.png" id="5_6q0t0"]
+[ext_resource type="Texture2D" uid="uid://dplp13w86gr5c" path="res://ENTITIES/botao.png" id="5_6q0t0"]
 
 [sub_resource type="Theme" id="Theme_ynso5"]
 Button/styles/hover = ExtResource("3_ogumk")
@@ -34,6 +34,7 @@ offset_right = 1001.0
 offset_bottom = 96.0
 
 [node name="jogar" type="Button" parent="." unique_id=2051744604]
+texture_filter = 1
 layout_mode = 0
 offset_left = 706.0
 offset_top = 384.0
@@ -59,15 +60,16 @@ offset_bottom = 220.0
 
 [node name="NinePatchRect" type="NinePatchRect" parent="." unique_id=336088890]
 layout_mode = 0
-offset_left = 703.0
-offset_top = 384.0
-offset_right = 1004.0
-offset_bottom = 518.0
+offset_left = 692.0
+offset_top = 215.0
+offset_right = 993.0
+offset_bottom = 349.0
 texture = ExtResource("5_6q0t0")
-patch_margin_left = 2
-patch_margin_top = 15
-patch_margin_right = 11
-patch_margin_bottom = 6
+region_rect = Rect2(29, 29, 121, 122)
+patch_margin_left = 30
+patch_margin_top = 20
+patch_margin_right = 30
+patch_margin_bottom = 20
 
 [connection signal="pressed" from="settings" to="." method="_on_settings_pressed"]
 [connection signal="pressed" from="jogar" to="." method="_on_jogar_pressed"]
