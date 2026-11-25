@@ -3,12 +3,14 @@
 [ext_resource type="Texture2D" uid="uid://d0l3rl81xgw0m" path="res://ENTITIES/main.png" id="1_w86cw"]
 [ext_resource type="Script" uid="uid://wjn340rxy37t" path="res://SCRIPTS/pageMenu.gd" id="2_onw2j"]
 [ext_resource type="StyleBox" uid="uid://lbbq1w3bspcl" path="res://ButtonHolder.tres" id="3_ogumk"]
-[ext_resource type="Texture2D" uid="uid://uukphpctmlmc" path="res://icon.svg" id="4_x3g1m"]
-[ext_resource type="Texture2D" uid="uid://dplp13w86gr5c" path="res://ENTITIES/botao.png" id="5_6q0t0"]
+[ext_resource type="Texture2D" uid="uid://cc3lqr8rn7cdo" path="res://ENTITIES/ICON/Play.png" id="5_6q0t0"]
+[ext_resource type="Texture2D" uid="uid://4xv1sotwekbr" path="res://ENTITIES/ICON/InimigoAlbum.png" id="6_innld"]
+[ext_resource type="Theme" uid="uid://6g6r3kq674x6" path="res://Label.tres" id="6_yhs1s"]
+[ext_resource type="Texture2D" uid="uid://6hpdxhk8efb7" path="res://ENTITIES/ICON/AmigoAlbum.png" id="7_jjkjn"]
 
 [sub_resource type="Theme" id="Theme_ynso5"]
-Button/styles/hover = ExtResource("3_ogumk")
 Button/styles/normal = ExtResource("3_ogumk")
+Button/styles/pressed = ExtResource("3_ogumk")
 
 [node name="menu" type="Control" unique_id=810750684]
 layout_mode = 3
@@ -41,8 +43,117 @@ offset_top = 384.0
 offset_right = 1004.0
 offset_bottom = 491.0
 theme = SubResource("Theme_ynso5")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="jogar" unique_id=1652340134]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="jogar/HBoxContainer" unique_id=1425005342]
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("5_6q0t0")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="jogar/HBoxContainer" unique_id=378635599]
+layout_mode = 2
+theme = ExtResource("6_yhs1s")
 text = "JOGAR"
-icon = ExtResource("4_x3g1m")
+
+[node name="jogar2" type="Button" parent="." unique_id=468135746]
+texture_filter = 1
+layout_mode = 0
+offset_left = 706.0
+offset_top = 24.0
+offset_right = 1004.0
+offset_bottom = 131.0
+theme = SubResource("Theme_ynso5")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="jogar2" unique_id=1451346916]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="jogar2/HBoxContainer" unique_id=594826932]
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("5_6q0t0")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="jogar2/HBoxContainer" unique_id=630237565]
+layout_mode = 2
+theme = ExtResource("6_yhs1s")
+text = "JOGAR"
+
+[node name="Inimigo" type="Button" parent="." unique_id=730649136]
+texture_filter = 1
+layout_mode = 0
+offset_left = 33.0
+offset_top = 138.0
+offset_right = 331.0
+offset_bottom = 245.0
+theme = SubResource("Theme_ynso5")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Inimigo" unique_id=1631071986]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="Inimigo/HBoxContainer" unique_id=1582317589]
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("6_innld")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="Inimigo/HBoxContainer" unique_id=1242886768]
+layout_mode = 2
+theme = ExtResource("6_yhs1s")
+text = "JOGAR"
+
+[node name="Amigo" type="Button" parent="." unique_id=1258834359]
+texture_filter = 1
+layout_mode = 0
+offset_left = 33.0
+offset_top = 18.0
+offset_right = 331.0
+offset_bottom = 125.0
+theme = SubResource("Theme_ynso5")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Amigo" unique_id=1167726332]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="Amigo/HBoxContainer" unique_id=101487102]
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("7_jjkjn")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="Amigo/HBoxContainer" unique_id=477906282]
+layout_mode = 2
+theme = ExtResource("6_yhs1s")
+text = "JOGAR"
 
 [node name="amigos" type="Button" parent="." unique_id=1400844656]
 layout_mode = 0
@@ -58,20 +169,10 @@ offset_top = 142.0
 offset_right = 257.0
 offset_bottom = 220.0
 
-[node name="NinePatchRect" type="NinePatchRect" parent="." unique_id=336088890]
-layout_mode = 0
-offset_left = 692.0
-offset_top = 215.0
-offset_right = 993.0
-offset_bottom = 349.0
-texture = ExtResource("5_6q0t0")
-region_rect = Rect2(29, 29, 121, 122)
-patch_margin_left = 30
-patch_margin_top = 20
-patch_margin_right = 30
-patch_margin_bottom = 20
-
 [connection signal="pressed" from="settings" to="." method="_on_settings_pressed"]
 [connection signal="pressed" from="jogar" to="." method="_on_jogar_pressed"]
+[connection signal="pressed" from="jogar2" to="." method="_on_jogar_pressed"]
+[connection signal="pressed" from="Inimigo" to="." method="_on_jogar_pressed"]
+[connection signal="pressed" from="Amigo" to="." method="_on_jogar_pressed"]
 [connection signal="pressed" from="amigos" to="." method="_on_amigos_pressed"]
 [connection signal="pressed" from="adversarios" to="." method="_on_adversarios_pressed"]

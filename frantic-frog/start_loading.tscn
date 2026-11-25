@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://c70dohf4hafvu"]
+
+[ext_resource type="Texture2D" uid="uid://641nryvn81lh" path="res://ENTITIES/firstLoadBackground.png" id="1_ovugf"]
+[ext_resource type="Theme" uid="uid://uicmq1qh6lfe" path="res://LoadBar.tres" id="2_0fu8i"]
+[ext_resource type="Theme" uid="uid://6g6r3kq674x6" path="res://Label.tres" id="3_je63s"]
+[ext_resource type="Texture2D" uid="uid://bay7kv6p4l7ax" path="res://ENTITIES/Marca.png" id="4_2nalh"]
+
+[node name="StartLoading" type="Control" unique_id=82031061]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1020.0
+offset_bottom = 540.0
+metadata/_edit_vertical_guides_ = [340.0, 680.0, 510.0]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1996690005]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ovugf")
+expand_mode = 1
+
+[node name="ProgressBar" type="ProgressBar" parent="." unique_id=1277909399]
+layout_mode = 0
+offset_left = 345.0
+offset_top = 478.0
+offset_right = 676.0
+offset_bottom = 505.0
+theme = ExtResource("2_0fu8i")
+value = 99.0
+
+[node name="Label" type="Label" parent="." unique_id=670634511]
+layout_mode = 0
+offset_left = 416.0
+offset_top = 451.0
+offset_right = 604.0
+offset_bottom = 481.0
+theme = ExtResource("3_je63s")
+theme_override_font_sizes/font_size = 16
+text = "Carregando ..."
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=613340581]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_2nalh")
+expand_mode = 1

@@ -1,0 +1,60 @@
+[gd_scene format=3 uid="uid://weg1tsk67pr6"]
+
+[ext_resource type="Texture2D" uid="uid://codsc7vmipvl3" path="res://ENTITIES/background.png" id="1_g58xu"]
+[ext_resource type="Theme" uid="uid://6g6r3kq674x6" path="res://Label.tres" id="2_fjnpg"]
+[ext_resource type="Theme" uid="uid://uicmq1qh6lfe" path="res://LoadBar.tres" id="2_g58xu"]
+[ext_resource type="Texture2D" uid="uid://cc3lqr8rn7cdo" path="res://ENTITIES/ICON/Play.png" id="4_ogmen"]
+
+[node name="Load" type="Control" unique_id=669112951]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Load" type="TextureRect" parent="." unique_id=1299742758]
+layout_mode = 0
+offset_right = 1020.0
+offset_bottom = 540.0
+texture = ExtResource("1_g58xu")
+expand_mode = 1
+
+[node name="ProgressBar" type="ProgressBar" parent="." unique_id=477270434]
+layout_mode = 0
+offset_left = 340.0
+offset_top = 478.0
+offset_right = 680.0
+offset_bottom = 505.0
+theme = ExtResource("2_g58xu")
+
+[node name="Label" type="Label" parent="." unique_id=1986783416]
+layout_mode = 0
+offset_left = 416.0
+offset_top = 450.0
+offset_right = 604.0
+offset_bottom = 473.0
+theme = ExtResource("2_fjnpg")
+theme_override_font_sizes/font_size = 16
+text = "Carregando ..."
+
+[node name="Label2" type="Label" parent="." unique_id=1484462613]
+layout_mode = 0
+offset_left = 350.0
+offset_top = 214.0
+offset_right = 860.0
+offset_bottom = 310.0
+theme = ExtResource("2_fjnpg")
+theme_override_font_sizes/font_size = 16
+text = "Quem pensa no amanhã começa hoje, 
+  reciclando o que sobra e repensando
+  o que consome!"
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2104855680]
+layout_mode = 0
+offset_left = 160.0
+offset_top = 130.0
+offset_right = 385.0
+offset_bottom = 355.0
+texture = ExtResource("4_ogmen")
+expand_mode = 1

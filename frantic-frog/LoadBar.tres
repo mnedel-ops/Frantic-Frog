@@ -1,0 +1,26 @@
+[gd_resource type="Theme" format=3 uid="uid://uicmq1qh6lfe"]
+
+[ext_resource type="Texture2D" uid="uid://ccbn80cjgvct" path="res://ENTITIES/barraLoad.png" id="1_p2ih7"]
+[ext_resource type="FontFile" uid="uid://ydgo8y42u3tl" path="res://ENTITIES/FONT/super-comic-font/SuperComic-qZg62.ttf" id="1_qbx2e"]
+[ext_resource type="Texture2D" uid="uid://bbpyy7g8tk1qd" path="res://ENTITIES/BarraProgresso.png" id="2_whyr5"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_whyr5"]
+texture = ExtResource("1_p2ih7")
+texture_margin_left = 10.0
+texture_margin_right = 10.0
+expand_margin_left = 5.0
+expand_margin_top = 5.0
+expand_margin_right = 5.0
+expand_margin_bottom = 5.0
+region_rect = Rect2(73, 74, 403, 82)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qbx2e"]
+texture = ExtResource("2_whyr5")
+region_rect = Rect2(20, 31, 257, 65)
+
+[resource]
+ProgressBar/constants/outline_size = 6
+ProgressBar/font_sizes/font_size = 24
+ProgressBar/fonts/font = ExtResource("1_qbx2e")
+ProgressBar/styles/background = SubResource("StyleBoxTexture_whyr5")
+ProgressBar/styles/fill = SubResource("StyleBoxTexture_qbx2e")
