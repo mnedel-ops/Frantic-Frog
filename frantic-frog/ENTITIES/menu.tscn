@@ -5,6 +5,7 @@
 [ext_resource type="StyleBox" uid="uid://lbbq1w3bspcl" path="res://ButtonHolder.tres" id="3_ogumk"]
 [ext_resource type="Texture2D" uid="uid://cc3lqr8rn7cdo" path="res://ENTITIES/ICON/Play.png" id="5_6q0t0"]
 [ext_resource type="Texture2D" uid="uid://4xv1sotwekbr" path="res://ENTITIES/ICON/InimigoAlbum.png" id="6_innld"]
+[ext_resource type="Texture2D" uid="uid://cxvp5tybkrxjs" path="res://ENTITIES/ICON/Gear.png" id="6_jjkjn"]
 [ext_resource type="Theme" uid="uid://6g6r3kq674x6" path="res://Label.tres" id="6_yhs1s"]
 [ext_resource type="Texture2D" uid="uid://6hpdxhk8efb7" path="res://ENTITIES/ICON/AmigoAlbum.png" id="7_jjkjn"]
 
@@ -87,7 +88,7 @@ custom_minimum_size = Vector2(128, 128)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-texture = ExtResource("5_6q0t0")
+texture = ExtResource("6_jjkjn")
 expand_mode = 1
 
 [node name="Label" type="Label" parent="jogar2/HBoxContainer" unique_id=630237565]
