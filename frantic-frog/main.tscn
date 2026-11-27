@@ -4,14 +4,14 @@
 [ext_resource type="PackedScene" uid="uid://c70dohf4hafvu" path="res://start_loading.tscn" id="2_dg77c"]
 [ext_resource type="PackedScene" uid="uid://cicpaty7nn47p" path="res://ENTITIES/menu.tscn" id="3_dg77c"]
 [ext_resource type="PackedScene" uid="uid://bs8etxj0r6xv4" path="res://settings.tscn" id="4_dg77c"]
-[ext_resource type="Texture2D" uid="uid://cd6sij4ts0ps7" path="res://ENTITIES/albumAliados.png" id="4_w48qg"]
-[ext_resource type="Texture2D" uid="uid://bh2adws5l7ykx" path="res://ENTITIES/albumAdversarios.png" id="5_vivmo"]
-[ext_resource type="Texture2D" uid="uid://d2fphbctoqvt4" path="res://ENTITIES/escolherSave.png" id="6_2cqfq"]
-[ext_resource type="Texture2D" uid="uid://yah1undxwhx2" path="res://ENTITIES/hud.png" id="8_074og"]
+[ext_resource type="PackedScene" uid="uid://d06v0405e5a0v" path="res://album_aliados.tscn" id="5_dg77c"]
+[ext_resource type="PackedScene" uid="uid://c3bx4nn58mi57" path="res://album_inimigos.tscn" id="6_ycdy4"]
+[ext_resource type="PackedScene" uid="uid://bvh3swmodlvon" path="res://save.tscn" id="7_w48qg"]
 [ext_resource type="PackedScene" uid="uid://weg1tsk67pr6" path="res://load.tscn" id="8_dg77c"]
-[ext_resource type="Texture2D" uid="uid://ceh8anhs7hrnq" path="res://ENTITIES/pause.png" id="9_cegan"]
-[ext_resource type="Texture2D" uid="uid://dstc2l3ju65gs" path="res://ENTITIES/vitoria.png" id="10_82xsv"]
-[ext_resource type="Texture2D" uid="uid://dedw1yqact756" path="res://ENTITIES/derrota.png" id="11_getpj"]
+[ext_resource type="PackedScene" uid="uid://ct4eaoepbkfnj" path="res://hud.tscn" id="9_vivmo"]
+[ext_resource type="PackedScene" uid="uid://bg85lqjh03ysv" path="res://pause.tscn" id="10_2cqfq"]
+[ext_resource type="PackedScene" uid="uid://br0uwl6dy4mg7" path="res://vitoria.tscn" id="11_yaehf"]
+[ext_resource type="PackedScene" uid="uid://coh4esnqbv8ic" path="res://derrota.tscn" id="12_074og"]
 
 [node name="main" type="Control" unique_id=504107590]
 layout_mode = 3
@@ -27,6 +27,7 @@ visible = false
 layout_mode = 0
 
 [node name="menu" parent="." unique_id=1137034954 instance=ExtResource("3_dg77c")]
+visible = false
 layout_mode = 0
 anchors_preset = 0
 anchor_right = 0.0
@@ -38,29 +39,14 @@ grow_vertical = 1
 visible = false
 layout_mode = 0
 
-[node name="AlbumAliados" type="TextureRect" parent="." unique_id=226439896]
-visible = false
+[node name="AlbumAliados" parent="." unique_id=51238159 instance=ExtResource("5_dg77c")]
 layout_mode = 0
-offset_right = 1020.0
-offset_bottom = 540.0
-texture = ExtResource("4_w48qg")
-expand_mode = 1
 
-[node name="AlbumInimigos" type="TextureRect" parent="." unique_id=377534638]
-visible = false
+[node name="AlbumInimigos" parent="." unique_id=1069587998 instance=ExtResource("6_ycdy4")]
 layout_mode = 0
-offset_right = 1020.0
-offset_bottom = 540.0
-texture = ExtResource("5_vivmo")
-expand_mode = 1
 
-[node name="Save" type="TextureRect" parent="." unique_id=371878083]
-visible = false
+[node name="Save" parent="." unique_id=1782819045 instance=ExtResource("7_w48qg")]
 layout_mode = 0
-offset_right = 1020.0
-offset_bottom = 540.0
-texture = ExtResource("6_2cqfq")
-expand_mode = 1
 
 [node name="Load" parent="." unique_id=1299742758 instance=ExtResource("8_dg77c")]
 visible = false
@@ -71,37 +57,17 @@ anchor_bottom = 0.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="HUD" type="TextureRect" parent="." unique_id=1982502398]
-visible = false
+[node name="HUD" parent="." unique_id=724534076 instance=ExtResource("9_vivmo")]
 layout_mode = 0
-offset_right = 1020.0
-offset_bottom = 540.0
-texture = ExtResource("8_074og")
-expand_mode = 1
 
-[node name="Pause" type="TextureRect" parent="." unique_id=1571990538]
-visible = false
+[node name="Pause" parent="." unique_id=199371152 instance=ExtResource("10_2cqfq")]
 layout_mode = 0
-offset_right = 1020.0
-offset_bottom = 540.0
-texture = ExtResource("9_cegan")
-expand_mode = 1
 
-[node name="Vitoria" type="TextureRect" parent="." unique_id=1125119956]
-visible = false
+[node name="Vitoria" parent="." unique_id=989595103 instance=ExtResource("11_yaehf")]
 layout_mode = 0
-offset_right = 1020.0
-offset_bottom = 540.0
-texture = ExtResource("10_82xsv")
-expand_mode = 1
 
-[node name="Derrota" type="TextureRect" parent="." unique_id=1566203138]
-visible = false
+[node name="Derrota" parent="." unique_id=623114524 instance=ExtResource("12_074og")]
 layout_mode = 0
-offset_right = 1020.0
-offset_bottom = 540.0
-texture = ExtResource("11_getpj")
-expand_mode = 1
 
 [connection signal="_go_adversarios" from="menu" to="." method="_on_menu__go_adversarios"]
 [connection signal="_go_amigos" from="menu" to="." method="_on_menu__go_amigos"]

@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bg85lqjh03ysv"]
+
+[ext_resource type="Texture2D" uid="uid://ceh8anhs7hrnq" path="res://ENTITIES/pause.png" id="1_45vjg"]
+
+[node name="Pause" type="TextureRect" unique_id=199371152]
+visible = false
+offset_right = 1020.0
+offset_bottom = 540.0
+texture = ExtResource("1_45vjg")
+expand_mode = 1

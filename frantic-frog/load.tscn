@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://codsc7vmipvl3" path="res://ENTITIES/background.png" id="1_g58xu"]
 [ext_resource type="Theme" uid="uid://6g6r3kq674x6" path="res://Label.tres" id="2_fjnpg"]
 [ext_resource type="Theme" uid="uid://uicmq1qh6lfe" path="res://LoadBar.tres" id="2_g58xu"]
-[ext_resource type="Texture2D" uid="uid://cc3lqr8rn7cdo" path="res://ENTITIES/ICON/Play.png" id="4_ogmen"]
+[ext_resource type="Texture2D" uid="uid://cxh2d3v1xoho6" path="res://ENTITIES/ICON/Reciclar.png" id="4_ogmen"]
 
 [node name="Load" type="Control" unique_id=669112951]
 layout_mode = 3
@@ -52,9 +52,9 @@ text = "Quem pensa no amanhã começa hoje,
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=2104855680]
 layout_mode = 0
-offset_left = 160.0
-offset_top = 130.0
-offset_right = 385.0
-offset_bottom = 355.0
+offset_left = 229.0
+offset_top = 174.0
+offset_right = 344.0
+offset_bottom = 289.0
 texture = ExtResource("4_ogmen")
 expand_mode = 1

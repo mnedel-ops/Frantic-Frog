@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://ct4eaoepbkfnj"]
+
+[ext_resource type="Texture2D" uid="uid://yah1undxwhx2" path="res://ENTITIES/hud.png" id="1_37p78"]
+
+[node name="HUD" type="TextureRect" unique_id=724534076]
+visible = false
+offset_right = 1020.0
+offset_bottom = 540.0
+texture = ExtResource("1_37p78")
+expand_mode = 1

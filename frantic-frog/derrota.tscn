@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://coh4esnqbv8ic"]
+
+[ext_resource type="Texture2D" uid="uid://dedw1yqact756" path="res://ENTITIES/derrota.png" id="1_kkwv5"]
+
+[node name="Control" type="Control" unique_id=82563222]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Derrota" type="TextureRect" parent="." unique_id=623114524]
+layout_mode = 0
+offset_right = 1020.0
+offset_bottom = 540.0
+texture = ExtResource("1_kkwv5")
+expand_mode = 1

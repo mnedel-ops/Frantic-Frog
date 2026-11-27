@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://d06v0405e5a0v"]
+
+[ext_resource type="Texture2D" uid="uid://cd6sij4ts0ps7" path="res://ENTITIES/albumAliados.png" id="1_vaqnd"]
+
+[node name="AlbumAliados" type="TextureRect" unique_id=51238159]
+visible = false
+offset_right = 1020.0
+offset_bottom = 540.0
+texture = ExtResource("1_vaqnd")
+expand_mode = 1

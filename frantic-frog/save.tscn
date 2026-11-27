@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bvh3swmodlvon"]
+
+[ext_resource type="Texture2D" uid="uid://d2fphbctoqvt4" path="res://ENTITIES/escolherSave.png" id="1_tknle"]
+
+[node name="Save" type="TextureRect" unique_id=1782819045]
+visible = false
+offset_right = 1020.0
+offset_bottom = 540.0
+texture = ExtResource("1_tknle")
+expand_mode = 1
