@@ -68,6 +68,11 @@ layout_mode = 0
 
 [node name="Derrota" parent="." unique_id=623114524 instance=ExtResource("12_074og")]
 layout_mode = 0
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+grow_horizontal = 1
+grow_vertical = 1
 
 [connection signal="_go_adversarios" from="menu" to="." method="_on_menu__go_adversarios"]
 [connection signal="_go_amigos" from="menu" to="." method="_on_menu__go_amigos"]
